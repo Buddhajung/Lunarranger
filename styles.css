@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(background.jpg);
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 50px
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #ff900;
+	color: #4d0099;
+}
+h4 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Bungee Inline', cursive;
+}
+#centered {
+	text-align: center;
+}
+
+#myGameAreaDiv {
+	width: 100%
+	text-align: center;
+	}
+
+#myGameArea {
+	display: block;
+	background-color: black;
+	width: 600px; 
+	height: 700px;
+	margin-right: auto;
+	margin-left:auto;
+	margin-top: 0;
+	border: 2px solid #4d0099;
+	position: relative;
+	/* padding-right: 50px; */
+	/* padding-left: 50px */
+}
+#menuBar {
+	text-align: center;
+	border: 10px blue;
+	background-color: #4A235A;
+}
+.startButton {
+	font-size: 50px;
+}
+#moon {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%
+}
